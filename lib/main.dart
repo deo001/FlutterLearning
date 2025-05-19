@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:shu/pages/day2.dart';
 import 'package:shu/pages/homepage.dart';
+import 'package:shu/pages/listview.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +15,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home:
           // Homepage(),
-        DayTwo(),
+        // DayTwo(),
+      MyListview(),
     );
   }
 }
